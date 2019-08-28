@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/bg.jpg);
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: #555;
+    width: 100%;
+    height: 68px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 3rem;
+}
+
+header nav {
+    background: #555;
+}
+
+header nav ul {
+    font-family: monospace;
+    font-weight: 500;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+    font-size: 1.3rem;
+}
+
+header nav ul li a:hover {
+    color: #00ff66;
+}
+
+header .toggler {
+    display: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+header .toggler:hover {
+    color: #666;
+    background: #eee;
+}
+
+@media screen and (max-width:768px) {
+    header {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    header .toggler {
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    header nav {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        max-height: 0;
+    }
+    
+    header nav.responsive {
+        max-height: none;
+    }
+    header nav ul {
+        padding-left: 30px;
+    }
+    
+    header nav ul li {
+        display: inline;
+    }
+    
+    header nav ul li a {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
