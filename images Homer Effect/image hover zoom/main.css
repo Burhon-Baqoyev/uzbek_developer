@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.images-hover {
+	width: 100%;
+	height: 100vh;
+	background: #e15f41;
+}
+
+.images-hover .images-inner {
+	width: 450px;
+	height: 450px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	overflow: hidden;
+	cursor: pointer;
+	transform: translate(-50%,-50%);
+}
+
+.images-hover .images-inner img {
+	width: 100%;
+	height: 100%;
+	transition: transform .4s;
+}
+
+.images-hover .images-inner img:hover {
+	transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
