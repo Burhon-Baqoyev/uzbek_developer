@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3000px;
+}
+
+header,
+section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-image: url(bg1.jpg);
+}
+
+.real1 {
+    background-image: url(bg2.jpg);
+}
+
+.real2 {
+    background-image: url(bg3.jpg);
+}
+
+.real3 {
+    background-image: url(bg4.jpg);
+}
