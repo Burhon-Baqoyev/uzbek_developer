@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slider-area {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    animation: animated 10s ease-in-out infinite alternate; 
+}
+
+.slider-area:hover {
+    animation-play-state: paused;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animated {
+    25% {transform: translateX(0)}
+    25%, 50% {transform: translateX(-100%)}
+    50%, 75% {transform: translateX(-200%)}
+    75%, 100% {transform: translateX(-300%)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
