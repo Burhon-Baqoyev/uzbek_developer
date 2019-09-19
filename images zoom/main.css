@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #7f8c8d;
+}
+
+.container {
+    width: 450px;
+    height: 500px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 4px 5px #ecf0f1;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    animation: zoom 3s linear infinite alternate;
+}
+
+
+@keyframes zoom {
+    from {transform: scale(1)}
+    to {transform: scale(1.3)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
