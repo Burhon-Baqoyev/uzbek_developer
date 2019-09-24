@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header {
+    background: #666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 1.6rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #eee;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background: #666;
+    text-align: center;
+}
+
+section:nth-child(even) {
+    background: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
